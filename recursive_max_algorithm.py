@@ -4,14 +4,21 @@
     Filename: recursive_max_algorithm
     Purpose: Return maximum value in set S recursively.
     Sources: 
-        https://stackoverflow.com/questions/50455784/python-and-f-strings-explanation
-            - Used to better understand Python
-        https://chatgpt.com/
-            - Used to better understand Python
-        https://www.geeksforgeeks.org/pprint-data-pretty-printer-python/
-            - Used to improve readability of output
-        https://realpython.com/python-sleep/
-            - Used to understand time.sleep() function
+        Stack Overflow. "Python and f-strings explanation." Stack Overflow, 21 June 2018, 
+        https://stackoverflow.com/questions/50455784/python-and-f-strings-explanation.
+            — Used to better understand Python f-strings and syntax.
+
+        OpenAI. ChatGPT. 
+        https://chatgpt.com/.
+            — Used to better understand Python recursion and output formatting.
+
+        GeeksforGeeks. "pprint — Data Pretty Printer in Python." GeeksforGeeks, 
+        https://www.geeksforgeeks.org/pprint-data-pretty-printer-python/.
+            — Used to improve readability of console output.
+
+        Bader, Dan. "Python time.sleep(): Add Time Delays to Your Code." Real Python, 
+        https://realpython.com/python-sleep/.
+        — Used to understand how to implement timed delays using time.sleep() in Python.
 """
 
 """
