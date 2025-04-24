@@ -17,7 +17,15 @@ def recursive_max_algorithm(S, n, depth=0):
         return result
     
 if __name__ == "__main__":
-    S = [3, 5, 2, 9, 1, 8, 0, 2]
+    # S = [3, 5, 2, 9, 1, 8, 0, 2]
+    while True:
+        user_input = input("Enter a list of numbers separated by spaces: ")
+        try:
+            S = [int(x.strip()) for x in user_input.split(",")]
+            break
+        except ValueError:
+            print("Invalid input. Please enter a list of numbers separated by commas.")
+    
     print(f"Input: {S}\n")
 
     max = recursive_max_algorithm(S, len(S))
